@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# SQLite database files (keep schema in code, not local data)
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment / secrets
+.env
+
+# VS Code
+.vscode/

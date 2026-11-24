@@ -1,0 +1,14 @@
+[project]
+name = "passerelle"
+version = "0.1.0"
+description = "University internship-management app"
+requires-python = ">=3.12"
+dependencies = [
+    "bcrypt>=5.0.0",
+    "nicegui>=4.0.0",
+    "pytest>=9.2.0",
+    "sqlmodel>=0.0.50",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
